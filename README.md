@@ -12,6 +12,7 @@ Listed below are a few factors you will need to consider when selecting an API:
 - The API should be able to retrieve JSON-formatted data
 - The API should be free and have a reasonable daily request allowance 
 - The content of the API should honor our community standards
+// Primary Api for Anime/Manga database (replace syntax with Manga api.xml?manga=4199 or api.xml?title=4199) https://cdn.animenewsnetwork.com/encyclopedia/api.xml?anime=id
 
 
 
@@ -20,19 +21,22 @@ Think through the purpose and details of your application.  Consider how this mo
 - Define the purpose of your application and what problem it solves.
 - Identify the target audience of your application and how it benefits them.
 - Describe the mission of your application and how it aligns with the purpose.
+// The purpose of the application is to act as a search database similar to Bing specific to Anime. Users will be able to type in keywords and quotes to find a specific related anime (or character within show) and find new shows to enjoy.
 
 
 ## Deliverable III (5 Points)
 Document the tools and strategies you will use to complete the deliverables found in Assignments 1,2 and 3.
 Consider someone who may read this README file and would like to take the same approach you are using to build a mobile app.
+// Tools needed: Coding space, .NetMaui installed for Android/Ios platform, (site will more than likely operate off of more than one Api to enhance database search results), separate mobile device to test simulation.
 
 ## Deliverable IV (10 Points)
 Identify the applications information architecture (IA) and the navigation model (Flyout, Tab).
 - Identify the number of pages 
 - Identify the name of each page and what content will be contained on the various pages.
+//Information architecture will consist of a main page with a search element at the top with several shortcut tiles underneath to common topic searches, Upon click the search will render multiple pages of option (aiming for 5) based upon search and each search result screen will have a home tab to return to original search screen.
 
 Construct a diagram that displays the information architecture of how the pages are linked.  You can use a diagramming tool of your choice. [Draw.io](draw.io) is a suitable free web-based tool that allows for diagram creation without the steep learning curve other tools present.
-
+// Diagram picture will be added separately to repository via github.
 
 ## Submission Guidelines
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository. Make sure you receive confirmation from Sakai that your assignment has been submitted.
