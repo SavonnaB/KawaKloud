@@ -41,3 +41,33 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/Views/AnimeForKidsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Views.AnimeForKidsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/AnimeForKidsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/AnimeForKidsPage.xaml
+
+[/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/Views/FavoritesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Views.FavoritesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/FavoritesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/FavoritesPage.xaml
+
+[/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/HomePage.xaml
+
+[/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/Views/NewlyReleasedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Views.NewlyReleasedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/NewlyReleasedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/NewlyReleasedPage.xaml
+
+[/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/Views/PopularAnimePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MyMauiApp.Views.PopularAnimePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/PopularAnimePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/PopularAnimePage.xaml
