@@ -13,6 +13,7 @@
         <Button Text="Popular Anime" Clicked="OnPopularAnimeClicked"/>
         <Button Text="Anime for Kids" Clicked="OnKidsAnimeClicked"/>
         <Button Text="Newly Released" Clicked="OnNewlyReleasedClicked"/>
+        <Button Text="Favorites" Clicked="OnFavoritesClicked" />
     </VerticalStackLayout>
 
 </ContentPage>
