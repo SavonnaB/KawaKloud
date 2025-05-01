@@ -1,19 +1,27 @@
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using KawaKloud.Models;
+using KawaKloud.Services;
 
-namespace KawaKloud.ViewModels
+namespace KawaKloud.ViewModels;
+
+public class NewlyReleasedPageViewModel
 {
-    public class NewlyReleasedPageViewModel : INotifyPropertyChanged
+    private readonly ApiService _apiService;
+    public ObservableCollection<AnimeItem> NewReleases { get; } = new();
+
+    public NewlyReleasedPageViewModel(ApiService apiService)
     {
-        public ObservableCollection<AnimeItem> NewReleases { get; } = new();
-
-        public NewlyReleasedPageViewModel()
-        {
-            NewReleases.Add(new AnimeItem { Title = "Demon Slayer Season 4" });
-            NewReleases.Add(new AnimeItem { Title = "Solo Leveling Season 2" });
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
+        _apiService = apiService;
+        LoadNewReleases();
     }
+
+    private async void LoadNewReleases()
+    {
+        var anime = await _apiService.GetNewlyReleasedAnimeAsync();
+        NewReleases.Clear();
+        foreach (var item in anime)
+            NewReleases.Add(item);
+    }
+}
+
 }

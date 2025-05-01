@@ -21,10 +21,13 @@ public static class MauiProgram
 #if DEBUG
         builder.Logging.AddDebug();
 #endif
-        builder.Services.AddSingleton<AnimeForKidsPageViewModel>();
+        builder.Services.AddSingleton<ApiService>();
+		builder.Services.AddSingleton<AnimeForKidsPageViewModel>();
         builder.Services.AddSingleton<NewlyReleasedPageViewModel>();
         builder.Services.AddSingleton<FavoritesPageViewModel>();
 		builder.Services.AddSingleton<PopularAnimePageViewModel>();
+		
+
 
         return builder.Build(); 
     }

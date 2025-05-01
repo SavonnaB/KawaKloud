@@ -1,12 +1,27 @@
-public class PopularAnimePageViewModel : INotifyPropertyChanged
+using System.Collections.ObjectModel;
+using KawaKloud.Models;
+using KawaKloud.Services;
+
+namespace KawaKloud.ViewModels;
+
+public class PopularAnimePageViewModel
 {
+    private readonly ApiService _apiService;
+
     public ObservableCollection<AnimeItem> AnimeList { get; } = new();
 
-    public PopularAnimePageViewModel()
+    public PopularAnimePageViewModel(ApiService apiService)
     {
-        AnimeList.Add(new AnimeItem { Title = "Demon Slayer" });
-        AnimeList.Add(new AnimeItem { Title = "One Piece" });
+        _apiService = apiService;
+        LoadPopularAnime();
     }
 
-    public event PropertyChangedEventHandler PropertyChanged;
+    private async void LoadPopularAnime()
+    {
+        var anime = await _apiService.GetPopularAnimeAsync();
+        AnimeList.Clear();
+        foreach (var item in anime)
+            AnimeList.Add(item);
+    }
 }
+

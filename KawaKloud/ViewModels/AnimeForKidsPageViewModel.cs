@@ -1,19 +1,27 @@
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using KawaKloud.Models;
+using KawaKloud.Services;
 
-namespace KawaKloud.ViewModels
+namespace KawaKloud.ViewModels;
+
+public class AnimeForKidsPageViewModel
 {
-    public class AnimeForKidsPageViewModel : INotifyPropertyChanged
+    private readonly ApiService _apiService;
+    public ObservableCollection<AnimeItem> KidsAnimeList { get; } = new();
+
+    public AnimeForKidsPageViewModel(ApiService apiService)
     {
-        public ObservableCollection<AnimeItem> KidsAnimeList { get; } = new();
+        _apiService = apiService;
+        LoadKidsAnime();
+    }
 
-        public AnimeForKidsPageViewModel()
-        {
-            KidsAnimeList.Add(new AnimeItem { Title = "Ponyo" });
-            KidsAnimeList.Add(new AnimeItem { Title = "Totoro" });
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
+    private async void LoadKidsAnime()
+    {
+        var anime = await _apiService.GetKidsAnimeAsync();
+        KidsAnimeList.Clear();
+        foreach (var item in anime)
+            KidsAnimeList.Add(item);
     }
 }
+
+

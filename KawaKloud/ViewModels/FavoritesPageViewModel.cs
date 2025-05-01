@@ -1,24 +1,32 @@
 using System.Collections.ObjectModel;
-using System.ComponentModel;
 using KawaKloud.Models;
+using KawaKloud.Services;
 
-namespace KawaKloud.ViewModels
+namespace KawaKloud.ViewModels;
+
+public class FavoritesPageViewModel
 {
-    public class FavoritesPageViewModel : INotifyPropertyChanged
+    private readonly ApiService _apiService;
+    public ObservableCollection<AnimeItem> Favorites { get; } = new();
+
+    public FavoritesPageViewModel(ApiService apiService)
     {
-        public ObservableCollection<AnimeItem> Favorites { get; } = new();
+        _apiService = apiService;
+        LoadFavorites();
+    }
 
-        public FavoritesPageViewModel()
-        {
-            Favorites.Add(new AnimeItem { Title = "Attack on Titan" });
-        }
+    private async void LoadFavorites()
+    {
+        var anime = await _apiService.GetFavoritesAsync(); // or use local storage
+        Favorites.Clear();
+        foreach (var item in anime)
+            Favorites.Add(item);
+    }
 
-        public void RemoveFavorite(AnimeItem item)
-        {
-            if (Favorites.Contains(item))
-                Favorites.Remove(item);
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
+    public void RemoveFavorite(AnimeItem item)
+    {
+        if (Favorites.Contains(item))
+            Favorites.Remove(item);
     }
 }
+
