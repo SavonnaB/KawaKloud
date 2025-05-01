@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/MyMauiApp/MyMauiApp.csproj": {}
+    "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/KawaKloud.csproj": {}
   },
   "projects": {
-    "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/MyMauiApp/MyMauiApp.csproj": {
+    "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/KawaKloud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/MyMauiApp/MyMauiApp.csproj",
-        "projectName": "MyMauiApp",
-        "projectPath": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/MyMauiApp/MyMauiApp.csproj",
+        "projectUniqueName": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/KawaKloud.csproj",
+        "projectName": "KawaKloud",
+        "projectPath": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/KawaKloud.csproj",
         "packagesPath": "/Users/Twilight2/.nuget/packages/",
-        "outputPath": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/MyMauiApp/obj/",
+        "outputPath": "/Users/Twilight2/KawaKloud/cpst-343-mobile-app-project-savonnab/KawaKloud/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

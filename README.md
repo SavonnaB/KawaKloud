@@ -37,6 +37,12 @@ Identify the applications information architecture (IA) and the navigation model
 Construct a diagram that displays the information architecture of how the pages are linked.  You can use a diagramming tool of your choice. [Draw.io](draw.io) is a suitable free web-based tool that allows for diagram creation without the steep learning curve other tools present.
 // Diagram picture will be added separately to repository via github.
 ![alt text](<Anime site search Flow chart-1.png>)
+//wireframing for content pages: 
+![alt text](PopularAnime-1.png) 
+![alt text](AnimeForKids.png) 
+![alt text](NewlyReleased-1.png) 
+![alt text](FavoritesPage.png) 
+
  
 ## Submission Guidelines
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository. Make sure you receive confirmation from Sakai that your assignment has been submitted.
