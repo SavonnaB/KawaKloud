@@ -7,7 +7,7 @@ public partial class HomePage : ContentPage
 {
     public HomePage()
     {
-        InitializeComponent();
+        //InitializeComponent();
     }
 
     private async void OnPopularAnimeClicked(object sender, EventArgs e)
