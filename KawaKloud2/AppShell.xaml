@@ -5,10 +5,11 @@
     xmlns:views="clr-namespace:KawaKloud2"
     Title="KawaKloud2"
     x:Class="KawaKloud2.AppShell">
-<Shell>
   <TabBar>
-        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:MainPage}" />
-        <ShellContent Title="Favorites" ContentTemplate="{DataTemplate views:FavoritesPage}" />
+        <ShellContent Title="Home" 
+            ContentTemplate="{DataTemplate views:MainPage}" />
+        <ShellContent Title="Favorites" 
+            ContentTemplate="{DataTemplate views:FavoritesPage}" />
     </TabBar>
 
 </Shell>

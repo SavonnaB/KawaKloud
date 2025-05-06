@@ -2,9 +2,9 @@ namespace KawaKloud2.Views;
 
 public partial class FavoritesPage : ContentPage
 {
-    public FavoritesPage()
+    public FavoritesPage(FavoritesPageViewModel viewModel)
     {
         InitializeComponent();
-        BindingContext = new FavoritesPageViewModel();
+        BindingContext = viewModel();
     }
 }

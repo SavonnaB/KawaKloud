@@ -1,10 +1,12 @@
+using KawaKloud2.ViewModels;
+
 namespace KawaKloud2.Views;
 
 public partial class PopularAnimePage : ContentPage
 {
-    public PopularAnimePage()
+    public PopularAnimePage(PopularAnimePageViewModel viewModel)
     {
         InitializeComponent();
-        BindingContext = new PopularAnimePageviewModel ();
+        BindingContext = viewModel;
     }
 }

@@ -46,4 +46,4 @@ Construct a diagram that displays the information architecture of how the pages 
  
 ## Submission Guidelines
 Your project folder will need to be submitted to the assigned GitHub repository provided to you by the instructor. In Sakai, you will need to submit the link to your repository. Make sure you receive confirmation from Sakai that your assignment has been submitted.
-//Link to recording for assignments 2/3
+//Link to recording for assignments 2/3 https://loyolauniversitychicago-my.sharepoint.com/:v:/g/personal/sbeard2_luc_edu/Edxtv305VWRChYt1BRrVaiQB57kEJXvf-agWoEA0SOzFZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=cfulton%40luc.edu&e=2SAGSr

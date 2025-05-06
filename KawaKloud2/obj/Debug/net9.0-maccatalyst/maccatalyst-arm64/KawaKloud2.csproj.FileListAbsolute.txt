@@ -52,3 +52,4 @@
 /Users/Twilight2/Desktop/KawaKloud2/KawaKloud2/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/KawaKloud2.AssemblyInfoInputs.cache
 /Users/Twilight2/Desktop/KawaKloud2/KawaKloud2/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/KawaKloud2.AssemblyInfo.cs
 /Users/Twilight2/Desktop/KawaKloud2/KawaKloud2/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/KawaKloud2.csproj.CoreCompileInputs.cache
+/Users/Twilight2/Desktop/KawaKloud2/KawaKloud2/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/KawaKloud2.sourcelink.json

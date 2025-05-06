@@ -6,7 +6,7 @@ public partial class MainPage : ContentPage
     {
         InitializeComponent();
 	}
-
+}
     private async void OnPopularAnimeClicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(PopularAnimePage));
@@ -26,5 +26,5 @@ public partial class MainPage : ContentPage
     {
         await Shell.Current.GoToAsync(nameof(FavoritesPage));
     }
-}
+
 

@@ -21,4 +21,9 @@ public static class MauiProgram
 
         return builder.Build();
     }
+
+	   builder.Services.AddSingleton<AnimeForKidsPageViewModel>();
+       builder.Services.AddSingleton<AnimeForKidsPage>();
+       builder.Services.AddSingleton<ApiService>();
+
 }
