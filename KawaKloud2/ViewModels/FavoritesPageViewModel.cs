@@ -6,7 +6,7 @@ namespace KawaKloud2.ViewModels;
 
 public class FavoritesPageViewModel
 {
-    private readonly ApiService _apiService;
+    public ApiService _apiService;
     public ObservableCollection<AnimeItem> Favorites { get; } = new();
 
     public FavoritesPageViewModel(ApiService apiService)

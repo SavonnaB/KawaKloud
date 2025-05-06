@@ -6,7 +6,7 @@ namespace KawaKloud2.ViewModels;
 
 public class AnimeForKidsPageViewModel
 {
-    private readonly ApiService _apiService;
+    public ApiService _apiService;
     public ObservableCollection<AnimeItem> KidsAnimeList { get; } = new();
 
     public AnimeForKidsPageViewModel(ApiService apiService)

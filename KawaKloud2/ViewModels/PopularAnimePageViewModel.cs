@@ -6,7 +6,7 @@ namespace KawaKloud2.ViewModels;
 
 public class PopularAnimePageViewModel
 {
-    private readonly ApiService _apiService;
+    public ApiService _apiService;
 
     public ObservableCollection<AnimeItem> AnimeList { get; } = new();
 

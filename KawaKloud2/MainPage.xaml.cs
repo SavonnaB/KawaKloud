@@ -2,8 +2,10 @@
 
 public partial class MainPage : ContentPage
 {
-    InitializeComponent();
-
+	public MainPage ()
+    {
+        InitializeComponent();
+	}
 
     private async void OnPopularAnimeClicked(object sender, EventArgs e)
     {

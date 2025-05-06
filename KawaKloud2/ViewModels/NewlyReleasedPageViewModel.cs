@@ -6,7 +6,7 @@ namespace KawaKloud2.ViewModels;
 
 public class NewlyReleasedPageViewModel
 {
-    private readonly ApiService _apiService;
+    public ApiService _apiService;
     public ObservableCollection<AnimeItem> NewReleases { get; } = new();
 
     public NewlyReleasedPageViewModel(ApiService apiService)
