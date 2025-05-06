@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KawaKloud2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0296c82ccb25bf7fc1808e6304c6282ef46255ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("KawaKloud2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KawaKloud2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
