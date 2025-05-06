@@ -2,9 +2,9 @@ namespace KawaKloud2.Views;
 
 public partial class PopularAnimePage : ContentPage
 {
-    public PopularAnimePage(PopularAnimePageViewModel viewModel)
+    public PopularAnimePage()
     {
         InitializeComponent();
-        BindingContext = viewModel;
+        BindingContext = new PopularAnimePageviewModel ();
     }
 }
