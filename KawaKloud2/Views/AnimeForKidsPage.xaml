@@ -1,0 +1,23 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             x:Class="KawaKloud2.Views.AnimeForKidsPage"
+             Title="Anime for Kids">
+
+      <ContentPage.BindingContext>
+        <vm:AnimeForKidsPageViewModel />
+    </ContentPage.BindingContext>
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <SearchBar Placeholder="Search kids anime..." />
+
+        <CollectionView x:Name="Binding KidsAnimeList">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout Padding="10">
+                        <Label Text="{Binding Title}" FontSize="18"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+
+</ContentPage>
