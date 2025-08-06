@@ -15,4 +15,4 @@
 ![alt text](NewlyReleased-1.png) 
 ![alt text](FavoritesPage.png) 
 
- 
+ ## Simulation bug fixes in progress
